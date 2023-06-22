@@ -1,6 +1,6 @@
 .profile__header {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 60%;
   height: 210px;
   gap: 20px;
@@ -21,6 +21,12 @@
   font-weight: 700;
   line-height: 29px;
   color: var(--color-grey-7);
+}
+
+.profile_div img {
+  width: 5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-brand-2);
 }
 
 @media (min-width: 768px) {
