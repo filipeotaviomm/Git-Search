@@ -12,6 +12,7 @@ const changeUserButton = () => {
   const button = document.querySelector(".profile__header > button");
 
   button.addEventListener("click", () => {
+    localStorage.clear();
     location.replace("../../");
   });
 };

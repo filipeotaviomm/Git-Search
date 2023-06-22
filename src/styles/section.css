@@ -76,6 +76,33 @@
   color: var(--color-grey-7);
 }
 
+.load {
+  display: flex;
+  justify-content: center;
+}
+.spinner {
+  margin-top: 2rem;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid var(--color-brand-2);
+  border-radius: 100%;
+  animation: spin 1s linear infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-width: 768px) {
   .index__section-first,
   .index__section-second,
